@@ -5,7 +5,7 @@
 import 'dart:async' as _i4;
 
 import 'package:mockito/mockito.dart' as _i1;
-import 'package:nfadhil_blog/core/platform/network_info.dart' as _i6;
+import 'package:nfadhil_blog/core/network/network_info.dart' as _i6;
 import 'package:nfadhil_blog/data/local/datasources/abstract/blog_local_data_source.dart'
     as _i5;
 import 'package:nfadhil_blog/data/remote/datasources/abstract/blog_network_data_source.dart'

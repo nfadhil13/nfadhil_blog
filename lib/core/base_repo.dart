@@ -1,7 +1,6 @@
-import 'resource.dart';
-
 import 'errors/base_error.dart';
 import 'errors/exceptions.dart';
+import 'resource.dart';
 
 abstract class BaseRepository {
   Future<Resource<T>> networkAndCacheCall<T>(

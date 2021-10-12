@@ -1,10 +1,9 @@
-import '../../core/platform/network_info.dart';
+import '../../core/network/network_info.dart';
+import '../../core/resource.dart';
+import '../../domain/entities/blog.dart';
+import '../../domain/repositories/blog_repo.dart';
 import '../local/datasources/abstract/blog_local_data_source.dart';
 import '../remote/datasources/abstract/blog_network_data_source.dart';
-
-import '../../domain/entities/blog.dart';
-import '../../core/resource.dart';
-import '../../domain/repositories/blog_repo.dart';
 
 class BlogRepositoryImpl extends BlogRepository {
   final BlogLocalDataSource _blogLocalDataSource;

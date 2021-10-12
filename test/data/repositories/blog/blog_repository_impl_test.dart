@@ -3,7 +3,7 @@ import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';
 import 'package:nfadhil_blog/core/errors/base_error.dart';
 import 'package:nfadhil_blog/core/errors/exceptions.dart';
-import 'package:nfadhil_blog/core/platform/network_info.dart';
+import 'package:nfadhil_blog/core/network/network_info.dart';
 import 'package:nfadhil_blog/core/resource.dart';
 import 'package:nfadhil_blog/data/local/datasources/abstract/blog_local_data_source.dart';
 import 'package:nfadhil_blog/data/remote/datasources/abstract/blog_network_data_source.dart';
@@ -11,6 +11,8 @@ import 'package:nfadhil_blog/data/repositories/blog_repository_impl.dart';
 import 'package:nfadhil_blog/domain/entities/blog.dart';
 
 import 'blog_repository_impl_test.mocks.dart';
+
+
 
 @GenerateMocks([BlogNetworkDataSource, BlogLocalDataSource, NetworkInfo])
 void main() {
