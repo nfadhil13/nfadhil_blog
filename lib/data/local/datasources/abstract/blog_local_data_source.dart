@@ -1,9 +1,9 @@
 import '../../../../domain/entities/blog.dart';
 
 abstract class BlogLocalDataSource {
-  Future<void> addNewBlog(Blog blogEntity);
+  Future<void> addNewBlog(Blog blog);
 
-  Future<void> addBunchOfBlog(List<Blog> blogEntityList);
+  Future<void> addBunchOfBlog(List<Blog> blogList);
 
   Future<List<Blog>> getAllBlog();
 

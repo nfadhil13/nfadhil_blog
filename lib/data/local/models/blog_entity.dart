@@ -48,4 +48,7 @@ class BlogEntity extends BaseEntity<Blog> {
         imagePreviewURL: blog.imagePreviewURL,
         releaseDate: blog.releaseDate);
   }
+
+  @override
+  List<Object?> get props => [id,title,content,imagePreviewURL,releaseDate];
 }
