@@ -43,5 +43,27 @@ class MockBlogRepository extends _i1.Mock implements _i3.BlogRepository {
                   _FakeResource_0<_i5.Blog>()))
           as _i4.Future<_i2.Resource<_i5.Blog>>);
   @override
+  _i4.Future<_i2.Resource<T>> networkAndCacheCall<T>(
+          {_i4.Future<bool>? isNetworkConnected,
+          _i4.Future<_i2.Resource<T>> Function()? onConnectionExist,
+          _i4.Future<_i2.Resource<T>> Function()? onConnectionNotExist,
+          bool? getFromCacheIfNetworkError = false}) =>
+      (super.noSuchMethod(
+              Invocation.method(#networkAndCacheCall, [], {
+                #isNetworkConnected: isNetworkConnected,
+                #onConnectionExist: onConnectionExist,
+                #onConnectionNotExist: onConnectionNotExist,
+                #getFromCacheIfNetworkError: getFromCacheIfNetworkError
+              }),
+              returnValue: Future<_i2.Resource<T>>.value(_FakeResource_0<T>()))
+          as _i4.Future<_i2.Resource<T>>);
+  @override
+  _i4.Future<_i2.Resource<T>> cacheOnlyCall<T>(
+          {_i4.Future<_i2.Resource<T>> Function()? cacheCall}) =>
+      (super.noSuchMethod(
+              Invocation.method(#cacheOnlyCall, [], {#cacheCall: cacheCall}),
+              returnValue: Future<_i2.Resource<T>>.value(_FakeResource_0<T>()))
+          as _i4.Future<_i2.Resource<T>>);
+  @override
   String toString() => super.toString();
 }

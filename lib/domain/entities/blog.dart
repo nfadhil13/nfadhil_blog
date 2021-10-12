@@ -1,7 +1,7 @@
 import 'package:equatable/equatable.dart';
 
 class Blog extends Equatable{
-  final String id;
+  final int id;
   final String title;
   final String content;
   final String imagePreviewURL;

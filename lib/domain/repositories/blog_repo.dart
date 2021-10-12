@@ -1,11 +1,10 @@
-import 'package:nfadhil_blog/core/resource.dart';
-import 'package:nfadhil_blog/domain/entities/blog.dart';
+import '../../core/base_repo.dart';
 
-abstract class BlogRepository {
+import '../../core/resource.dart';
+import '../entities/blog.dart';
 
-  Future<Resource<List<Blog>>> getAllBlog({String searchKey  = ""});
+abstract class BlogRepository extends BaseRepository {
+  Future<Resource<List<Blog>>> getAllBlog({String searchKey = ""});
 
   Future<Resource<Blog>> getOneBlogById(int id);
-
-
 }

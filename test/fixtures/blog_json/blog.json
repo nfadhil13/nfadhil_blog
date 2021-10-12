@@ -1,0 +1,27 @@
+{
+    "id": 1,
+    "Title": "Starting Blog",
+    "content": "Halo semuanya ini blog pertama saya. Saya harap kalian akan ",
+    "published_at": "2021-10-06T04:21:38.736Z",
+    "created_at": "2021-10-06T04:21:35.351Z",
+    "updated_at": "2021-10-06T04:21:38.776Z",
+    "cover": {
+        "id": 1,
+        "name": "vuejs-seeklogo.com.svg",
+        "alternativeText": "",
+        "caption": "",
+        "width": 256,
+        "height": 221,
+        "formats": null,
+        "hash": "vuejs_seeklogo_com_7b8e33170b",
+        "ext": ".svg",
+        "mime": "image/svg+xml",
+        "size": 0.57,
+        "url": "/uploads/vuejs_seeklogo_com_7b8e33170b.svg",
+        "previewUrl": null,
+        "provider": "local",
+        "provider_metadata": null,
+        "created_at": "2021-09-29T07:12:21.517Z",
+        "updated_at": "2021-09-29T07:12:21.549Z"
+    }
+}
